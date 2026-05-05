@@ -1,0 +1,10 @@
+openai-whisper==20250625
+transformers==4.41.2
+torch
+pydantic==2.13.3
+gTTS==2.5.4
+pandas==2.2.2
+numpy==1.26.4
+pytest==9.0.3
+pydub==0.25.1
+tqdm==4.67.3
