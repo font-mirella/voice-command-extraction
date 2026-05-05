@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "texto": "aumentar frequência respiratória para vinte rpm",
+    "categoria": "valido_simples"
+  },
+  {
+    "id": 2,
+    "texto": "definir volume corrente em quinhentos mililitros",
+    "categoria": "valido_simples"
+  },
+  {
+    "id": 3,
+    "texto": "reduzir pressão inspiratória para quinze centímetros de água",
+    "categoria": "valido_simples"
+  },
+  {
+    "id": 4,
+    "texto": "aumentar fio dois para sessenta por cento",
+    "categoria": "valido_simples"
+  },
+  {
+    "id": 5,
+    "texto": "diminuir frequência para doze rpm",
+    "categoria": "valido_simples"
+  },
+  {
+    "id": 6,
+    "texto": "ajustar volume corrente para quatrocentos e cinquenta mililitros",
+    "categoria": "valido_simples"
+  },
+  {
+    "id": 7,
+    "texto": "aumentar frequência para vinte",
+    "categoria": "unidade_omitida"
+  },
+  {
+    "id": 8,
+    "texto": "definir fio dois em oitenta",
+    "categoria": "unidade_omitida"
+  },
+  {
+    "id": 9,
+    "texto": "volume corrente quinhentos",
+    "categoria": "unidade_omitida"
+  },
+  {
+    "id": 10,
+    "texto": "pressão trinta",
+    "categoria": "unidade_omitida"
+  },
+  {
+    "id": 11,
+    "texto": "aumentar um pouco a frequência",
+    "categoria": "ambiguo"
+  },
+  {
+    "id": 12,
+    "texto": "diminuir pressão",
+    "categoria": "ambiguo"
+  },
+  {
+    "id": 13,
+    "texto": "fio dois tá baixo",
+    "categoria": "ambiguo"
+  },
+  {
+    "id": 14,
+    "texto": "ajustar para vinte",
+    "categoria": "ambiguo"
+  },
+  {
+    "id": 15,
+    "texto": "frequência",
+    "categoria": "incompleto"
+  },
+  {
+    "id": 16,
+    "texto": "aumentar",
+    "categoria": "incompleto"
+  },
+  {
+    "id": 17,
+    "texto": "definir pressão inspiratória",
+    "categoria": "incompleto"
+  },
+  {
+    "id": 18,
+    "texto": "definir frequência respiratória para trezentos rpm",
+    "categoria": "fora_de_faixa"
+  },
+  {
+    "id": 19,
+    "texto": "fio dois cem por cento",
+    "categoria": "fora_de_faixa"
+  },
+  {
+    "id": 20,
+    "texto": "volume corrente em cinquenta mililitros",
+    "categoria": "fora_de_faixa"
+  },
+  {
+    "id": 21,
+    "texto": "pressão inspiratória cinquenta centímetros de água",
+    "categoria": "fora_de_faixa"
+  },
+  {
+    "id": 22,
+    "texto": "aumentar efí ó dois para setenta",
+    "categoria": "erro_stt"
+  },
+  {
+    "id": 23,
+    "texto": "frequência respiratória vinte i rpm",
+    "categoria": "erro_stt"
+  },
+  {
+    "id": 24,
+    "texto": "volume corente quatrocentos",
+    "categoria": "erro_stt"
+  },
+  {
+    "id": 25,
+    "texto": "definir pressão em quinze centímetros d'água",
+    "categoria": "erro_stt"
+  }
+]

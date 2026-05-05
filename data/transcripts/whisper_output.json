@@ -1,0 +1,260 @@
+{
+  "modelo": "whisper-base",
+  "idioma": "pt",
+  "total_casos": 25,
+  "falhas": [],
+  "wer_medio": 0.5967,
+  "cer_medio": 0.3411,
+  "resultados": [
+    {
+      "id": 1,
+      "categoria": "valido_simples",
+      "fonte": "voz_humana",
+      "audio": "data/audio/1.m4a",
+      "referencia": "aumentar frequência respiratória para vinte rpm",
+      "transcricao_whisper": "Aumentar frequência respirantória para vinte e repem.",
+      "wer": 0.5,
+      "cer": 0.1277
+    },
+    {
+      "id": 2,
+      "categoria": "valido_simples",
+      "fonte": "voz_humana",
+      "audio": "data/audio/2.m4a",
+      "referencia": "definir volume corrente em quinhentos mililitros",
+      "transcricao_whisper": "Definível um ecorrente em 500 ml.",
+      "wer": 0.8333,
+      "cer": 0.5208
+    },
+    {
+      "id": 3,
+      "categoria": "valido_simples",
+      "fonte": "voz_humana",
+      "audio": "data/audio/3.m4a",
+      "referencia": "reduzir pressão inspiratória para quinze centímetros de água",
+      "transcricao_whisper": "Reduzir a impressão inspiradora para 15 cm de água.",
+      "wer": 0.75,
+      "cer": 0.3833
+    },
+    {
+      "id": 4,
+      "categoria": "valido_simples",
+      "fonte": "voz_humana",
+      "audio": "data/audio/4.m4a",
+      "referencia": "aumentar fio dois para sessenta por cento",
+      "transcricao_whisper": "Almentar o fio 2,60%.",
+      "wer": 1.0,
+      "cer": 0.7073
+    },
+    {
+      "id": 5,
+      "categoria": "valido_simples",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_05.mp3",
+      "referencia": "diminuir frequência para doze rpm",
+      "transcricao_whisper": "diminuir frequência para 12 RPM.",
+      "wer": 0.4,
+      "cer": 0.1515
+    },
+    {
+      "id": 6,
+      "categoria": "valido_simples",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_06.mp3",
+      "referencia": "ajustar volume corrente para quatrocentos e cinquenta mililitros",
+      "transcricao_whisper": "ajustar volume corrente para 450 ml.",
+      "wer": 0.5,
+      "cer": 0.5
+    },
+    {
+      "id": 7,
+      "categoria": "unidade_omitida",
+      "fonte": "voz_humana",
+      "audio": "data/audio/7.m4a",
+      "referencia": "aumentar frequência para vinte",
+      "transcricao_whisper": "Aumentar a frequência para o vinte.",
+      "wer": 0.75,
+      "cer": 0.1667
+    },
+    {
+      "id": 8,
+      "categoria": "unidade_omitida",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_08.mp3",
+      "referencia": "definir fio dois em oitenta",
+      "transcricao_whisper": "Defineir Fio 2 em 80.",
+      "wer": 0.6,
+      "cer": 0.4444
+    },
+    {
+      "id": 9,
+      "categoria": "unidade_omitida",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_09.mp3",
+      "referencia": "volume corrente quinhentos",
+      "transcricao_whisper": "Volume corrente 500.",
+      "wer": 0.3333,
+      "cer": 0.3846
+    },
+    {
+      "id": 10,
+      "categoria": "unidade_omitida",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_10.mp3",
+      "referencia": "pressão trinta",
+      "transcricao_whisper": "pressão 30",
+      "wer": 0.5,
+      "cer": 0.4286
+    },
+    {
+      "id": 11,
+      "categoria": "ambiguo",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_11.mp3",
+      "referencia": "aumentar um pouco a frequência",
+      "transcricao_whisper": "aumentar um pouco a frequência.",
+      "wer": 0.2,
+      "cer": 0.0333
+    },
+    {
+      "id": 12,
+      "categoria": "ambiguo",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_12.mp3",
+      "referencia": "diminuir pressão",
+      "transcricao_whisper": "diminuir pressão.",
+      "wer": 0.5,
+      "cer": 0.0625
+    },
+    {
+      "id": 13,
+      "categoria": "ambiguo",
+      "fonte": "voz_humana",
+      "audio": "data/audio/13.m4a",
+      "referencia": "fio dois tá baixo",
+      "transcricao_whisper": "Fio 2 tabaixo",
+      "wer": 0.75,
+      "cer": 0.3529
+    },
+    {
+      "id": 14,
+      "categoria": "ambiguo",
+      "fonte": "voz_humana",
+      "audio": "data/audio/14.m4a",
+      "referencia": "ajustar para vinte",
+      "transcricao_whisper": "Azueta paraə vwan Ontiniz",
+      "wer": 1.3333,
+      "cer": 0.7222
+    },
+    {
+      "id": 15,
+      "categoria": "incompleto",
+      "fonte": "voz_humana",
+      "audio": "data/audio/15.m4a",
+      "referencia": "frequência",
+      "transcricao_whisper": "Frequência",
+      "wer": 0.0,
+      "cer": 0.0
+    },
+    {
+      "id": 16,
+      "categoria": "incompleto",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_16.mp3",
+      "referencia": "aumentar",
+      "transcricao_whisper": "aumentar.",
+      "wer": 1.0,
+      "cer": 0.125
+    },
+    {
+      "id": 17,
+      "categoria": "incompleto",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_17.mp3",
+      "referencia": "definir pressão inspiratória",
+      "transcricao_whisper": "definir pressão inspiratória.",
+      "wer": 0.3333,
+      "cer": 0.0357
+    },
+    {
+      "id": 18,
+      "categoria": "fora_de_faixa",
+      "fonte": "voz_humana",
+      "audio": "data/audio/18.m4a",
+      "referencia": "definir frequência respiratória para trezentos rpm",
+      "transcricao_whisper": "Definir frequência respiratória para 300 RPM.",
+      "wer": 0.3333,
+      "cer": 0.2
+    },
+    {
+      "id": 19,
+      "categoria": "fora_de_faixa",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_19.mp3",
+      "referencia": "fio dois cem por cento",
+      "transcricao_whisper": "Fio 200%",
+      "wer": 0.8,
+      "cer": 0.8182
+    },
+    {
+      "id": 20,
+      "categoria": "fora_de_faixa",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_20.mp3",
+      "referencia": "volume corrente em cinquenta mililitros",
+      "transcricao_whisper": "Volume corrente em 50 ml.",
+      "wer": 0.4,
+      "cer": 0.4359
+    },
+    {
+      "id": 21,
+      "categoria": "fora_de_faixa",
+      "fonte": "voz_humana",
+      "audio": "data/audio/21.m4a",
+      "referencia": "pressão inspiratória cinquenta centímetros de água",
+      "transcricao_whisper": "Preção inspiradora 50 centímetros de água",
+      "wer": 0.5,
+      "cer": 0.28
+    },
+    {
+      "id": 22,
+      "categoria": "erro_stt",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_22.mp3",
+      "referencia": "aumentar efí ó dois para setenta",
+      "transcricao_whisper": "aumentar F2 para 70.",
+      "wer": 0.6667,
+      "cer": 0.5
+    },
+    {
+      "id": 23,
+      "categoria": "erro_stt",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_23.mp3",
+      "referencia": "frequência respiratória vinte i rpm",
+      "transcricao_whisper": "Frequência respiratória 20RPM.",
+      "wer": 0.6,
+      "cer": 0.2571
+    },
+    {
+      "id": 24,
+      "categoria": "erro_stt",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_24.mp3",
+      "referencia": "volume corente quatrocentos",
+      "transcricao_whisper": "Volume corrente 400.",
+      "wer": 0.6667,
+      "cer": 0.4815
+    },
+    {
+      "id": 25,
+      "categoria": "erro_stt",
+      "fonte": "gtts",
+      "audio": "data/audio/cmd_25.mp3",
+      "referencia": "definir pressão em quinze centímetros d'água",
+      "transcricao_whisper": "definir pressão em 15 cm da água.",
+      "wer": 0.6667,
+      "cer": 0.4091
+    }
+  ]
+}

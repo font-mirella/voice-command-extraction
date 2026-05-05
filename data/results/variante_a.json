@@ -1,0 +1,507 @@
+{
+  "variante": "A",
+  "descricao": "LLM puro — sem regras de domínio",
+  "modelo": "llama-3.3-70b-versatile",
+  "total_casos": 25,
+  "erros_criticos": [],
+  "resultados": [
+    {
+      "id": 1,
+      "categoria": "valido_simples",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Aumentar frequência respirantória para vinte e repem.",
+      "saida": {
+        "intent": "aumentar_parametro",
+        "parameter": "frequencia_respiratoria",
+        "value": 20.0,
+        "unit": "rpm",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "Aumentar frequência respiratória para 20 rpm",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 2,
+      "categoria": "valido_simples",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Definível um ecorrente em 500 ml.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "volume_corrente",
+        "value": 500.0,
+        "unit": "mL",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "Definir volume corrente em 500 mL",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 3,
+      "categoria": "valido_simples",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Reduzir a impressão inspiradora para 15 cm de água.",
+      "saida": {
+        "intent": "reduzir_parametro",
+        "parameter": "pressao_inspiratoria",
+        "value": 15.0,
+        "unit": "cmH2O",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "Reduzir a pressao inspiratoria para 15 cmH2O",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 4,
+      "categoria": "valido_simples",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Almentar o fio 2,60%.",
+      "saida": {
+        "intent": "aumentar_parametro",
+        "parameter": "fio2",
+        "value": 60.0,
+        "unit": "%",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "aumentar o fio2 para 60%",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 5,
+      "categoria": "valido_simples",
+      "fonte": "gtts",
+      "transcript_whisper": "diminuir frequência para 12 RPM.",
+      "saida": {
+        "intent": "reduzir_parametro",
+        "parameter": "frequencia_respiratoria",
+        "value": 12.0,
+        "unit": "rpm",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "diminuir frequencia para 12 RPM",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 6,
+      "categoria": "valido_simples",
+      "fonte": "gtts",
+      "transcript_whisper": "ajustar volume corrente para 450 ml.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "volume_corrente",
+        "value": 450.0,
+        "unit": "mL",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "ajustar volume corrente para 450 ml",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 7,
+      "categoria": "unidade_omitida",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Aumentar a frequência para o vinte.",
+      "saida": {
+        "intent": "aumentar_parametro",
+        "parameter": "frequencia_respiratoria",
+        "value": 20.0,
+        "unit": "rpm",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "Aumentar a frequência para o vinte",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 8,
+      "categoria": "unidade_omitida",
+      "fonte": "gtts",
+      "transcript_whisper": "Defineir Fio 2 em 80.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "fio2",
+        "value": 80.0,
+        "unit": "%",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "Definir Fio2 em 80",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 9,
+      "categoria": "unidade_omitida",
+      "fonte": "gtts",
+      "transcript_whisper": "Volume corrente 500.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "volume_corrente",
+        "value": 500.0,
+        "unit": "mL",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "Volume corrente 500",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 10,
+      "categoria": "unidade_omitida",
+      "fonte": "gtts",
+      "transcript_whisper": "pressão 30",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "pressao_inspiratoria",
+        "value": 30.0,
+        "unit": "cmH2O",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "pressao 30",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 11,
+      "categoria": "ambiguo",
+      "fonte": "gtts",
+      "transcript_whisper": "aumentar um pouco a frequência.",
+      "saida": {
+        "intent": "aumentar_parametro",
+        "parameter": "frequencia_respiratoria",
+        "value": null,
+        "unit": "rpm",
+        "status": "incompleto",
+        "confidence": "low",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "valor não especificado"
+        ],
+        "normalized_transcript": "aumentar um pouco a frequência",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 12,
+      "categoria": "ambiguo",
+      "fonte": "gtts",
+      "transcript_whisper": "diminuir pressão.",
+      "saida": {
+        "intent": "reduzir_parametro",
+        "parameter": "pressao_inspiratoria",
+        "value": null,
+        "unit": "cmH2O",
+        "status": "incompleto",
+        "confidence": "high",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "valor não especificado"
+        ],
+        "normalized_transcript": "diminuir pressão",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 13,
+      "categoria": "ambiguo",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Fio 2 tabaixo",
+      "saida": {
+        "intent": "reduzir_parametro",
+        "parameter": "fio2",
+        "value": null,
+        "unit": "%",
+        "status": "incompleto",
+        "confidence": "low",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "Valor não especificado"
+        ],
+        "normalized_transcript": "Fio 2 abaixo",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 14,
+      "categoria": "ambiguo",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Azueta paraə vwan Ontiniz",
+      "saida": {
+        "intent": "desconhecido",
+        "parameter": null,
+        "value": null,
+        "unit": null,
+        "status": "incompleto",
+        "confidence": "low",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "Transcrição não contém informações médicas reconhecíveis"
+        ],
+        "normalized_transcript": "Azueta para vwan Ontiniz",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 15,
+      "categoria": "incompleto",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Frequência",
+      "saida": {
+        "intent": "consultar_parametro",
+        "parameter": "frequencia_respiratoria",
+        "value": null,
+        "unit": null,
+        "status": "incompleto",
+        "confidence": "low",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "Valor não especificado",
+          "Unidade não identificada"
+        ],
+        "normalized_transcript": "Frequência",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 16,
+      "categoria": "incompleto",
+      "fonte": "gtts",
+      "transcript_whisper": "aumentar.",
+      "saida": {
+        "intent": "desconhecido",
+        "parameter": null,
+        "value": null,
+        "unit": null,
+        "status": "incompleto",
+        "confidence": "low",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "comando incompleto"
+        ],
+        "normalized_transcript": "aumentar",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 17,
+      "categoria": "incompleto",
+      "fonte": "gtts",
+      "transcript_whisper": "definir pressão inspiratória.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "pressao_inspiratoria",
+        "value": null,
+        "unit": "cmH2O",
+        "status": "incompleto",
+        "confidence": "high",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "Valor não especificado"
+        ],
+        "normalized_transcript": "definir pressao inspiratoria",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 18,
+      "categoria": "fora_de_faixa",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Definir frequência respiratória para 300 RPM.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "frequencia_respiratoria",
+        "value": 300.0,
+        "unit": "rpm",
+        "status": "fora_de_faixa",
+        "confidence": "high",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "Valor fora da faixa normal (8-35)"
+        ],
+        "normalized_transcript": "Definir frequência respiratória para 300 RPM",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 19,
+      "categoria": "fora_de_faixa",
+      "fonte": "gtts",
+      "transcript_whisper": "Fio 200%",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "fio2",
+        "value": 200.0,
+        "unit": "%",
+        "status": "fora_de_faixa",
+        "confidence": "high",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "Valor fora da faixa normal (21-100)"
+        ],
+        "normalized_transcript": "Fio 200%",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 20,
+      "categoria": "fora_de_faixa",
+      "fonte": "gtts",
+      "transcript_whisper": "Volume corrente em 50 ml.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "volume_corrente",
+        "value": 50.0,
+        "unit": "mL",
+        "status": "fora_de_faixa",
+        "confidence": "high",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "Valor está fora da faixa normal (300-800 mL)"
+        ],
+        "normalized_transcript": "Volume corrente em 50 ml",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 21,
+      "categoria": "fora_de_faixa",
+      "fonte": "voz_humana",
+      "transcript_whisper": "Preção inspiradora 50 centímetros de água",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "pressao_inspiratoria",
+        "value": 50.0,
+        "unit": "cmH2O",
+        "status": "fora_de_faixa",
+        "confidence": "high",
+        "requires_confirmation": true,
+        "validation_errors": [
+          "Valor está fora da faixa normal"
+        ],
+        "normalized_transcript": "pressao inspiratoria 50 centimetros de agua",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 22,
+      "categoria": "erro_stt",
+      "fonte": "gtts",
+      "transcript_whisper": "aumentar F2 para 70.",
+      "saida": {
+        "intent": "aumentar_parametro",
+        "parameter": "fio2",
+        "value": 70.0,
+        "unit": "%",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "aumentar F2 para 70",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 23,
+      "categoria": "erro_stt",
+      "fonte": "gtts",
+      "transcript_whisper": "Frequência respiratória 20RPM.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "frequencia_respiratoria",
+        "value": 20.0,
+        "unit": "rpm",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "Frequência respiratória 20RPM",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 24,
+      "categoria": "erro_stt",
+      "fonte": "gtts",
+      "transcript_whisper": "Volume corrente 400.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "volume_corrente",
+        "value": 400.0,
+        "unit": "mL",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "Volume corrente 400",
+        "notes": null
+      },
+      "erro": null
+    },
+    {
+      "id": 25,
+      "categoria": "erro_stt",
+      "fonte": "gtts",
+      "transcript_whisper": "definir pressão em 15 cm da água.",
+      "saida": {
+        "intent": "definir_parametro",
+        "parameter": "pressao_inspiratoria",
+        "value": 15.0,
+        "unit": "cmH2O",
+        "status": "ok",
+        "confidence": "high",
+        "requires_confirmation": false,
+        "validation_errors": [],
+        "normalized_transcript": "definir pressao em 15 cm da agua",
+        "notes": null
+      },
+      "erro": null
+    }
+  ]
+}

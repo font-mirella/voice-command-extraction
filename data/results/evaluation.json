@@ -1,0 +1,798 @@
+{
+  "variante_a": {
+    "variante": "A — LLM puro",
+    "total_casos": 25,
+    "schema_invalidos": 0,
+    "taxa_schema_valido": 1.0,
+    "erros_criticos": 1,
+    "taxa_erro_critico": 0.04,
+    "acuracia_por_campo": {
+      "intent": 0.84,
+      "parameter": 1.0,
+      "value": 0.92,
+      "unit": 0.84,
+      "status": 0.8,
+      "requires_confirmation": 0.84,
+      "confidence": 0.6
+    },
+    "acuracia_media": 0.8343,
+    "f1_por_intent": {
+      "aumentar_parametro": {
+        "precision": 1.0,
+        "recall": 0.7143,
+        "f1": 0.8333
+      },
+      "reduzir_parametro": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "definir_parametro": {
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963
+      },
+      "consultar_parametro": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "desconhecido": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "f1_macro_intent": 0.5307,
+    "detalhes": [
+      {
+        "id": 1,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 2,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 3,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 4,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 5,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 6,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 7,
+        "categoria": "unidade_omitida",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": false,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 8,
+        "categoria": "unidade_omitida",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": false,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 9,
+        "categoria": "unidade_omitida",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": false,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 10,
+        "categoria": "unidade_omitida",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": false,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 11,
+        "categoria": "ambiguo",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": false,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 12,
+        "categoria": "ambiguo",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": false,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 13,
+        "categoria": "ambiguo",
+        "acertos": {
+          "intent": false,
+          "parameter": true,
+          "value": true,
+          "unit": false,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 14,
+        "categoria": "ambiguo",
+        "acertos": {
+          "intent": false,
+          "parameter": true,
+          "value": false,
+          "unit": true,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 15,
+        "categoria": "incompleto",
+        "acertos": {
+          "intent": false,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 16,
+        "categoria": "incompleto",
+        "acertos": {
+          "intent": false,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 17,
+        "categoria": "incompleto",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": false,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 18,
+        "categoria": "fora_de_faixa",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 19,
+        "categoria": "fora_de_faixa",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": false,
+          "unit": true,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": true
+      },
+      {
+        "id": 20,
+        "categoria": "fora_de_faixa",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 21,
+        "categoria": "fora_de_faixa",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 22,
+        "categoria": "erro_stt",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 23,
+        "categoria": "erro_stt",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 24,
+        "categoria": "erro_stt",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 25,
+        "categoria": "erro_stt",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": false
+        },
+        "erro_critico": false
+      }
+    ]
+  },
+  "variante_b": {
+    "variante": "B — LLM + regras",
+    "total_casos": 25,
+    "schema_invalidos": 0,
+    "taxa_schema_valido": 1.0,
+    "erros_criticos": 1,
+    "taxa_erro_critico": 0.04,
+    "acuracia_por_campo": {
+      "intent": 0.84,
+      "parameter": 1.0,
+      "value": 0.92,
+      "unit": 0.84,
+      "status": 0.8,
+      "requires_confirmation": 0.88,
+      "confidence": 0.88
+    },
+    "acuracia_media": 0.88,
+    "f1_por_intent": {
+      "aumentar_parametro": {
+        "precision": 1.0,
+        "recall": 0.7143,
+        "f1": 0.8333
+      },
+      "reduzir_parametro": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "definir_parametro": {
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963
+      },
+      "consultar_parametro": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "desconhecido": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "f1_macro_intent": 0.5307,
+    "detalhes": [
+      {
+        "id": 1,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": false,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 2,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 3,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 4,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 5,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 6,
+        "categoria": "valido_simples",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 7,
+        "categoria": "unidade_omitida",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 8,
+        "categoria": "unidade_omitida",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 9,
+        "categoria": "unidade_omitida",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 10,
+        "categoria": "unidade_omitida",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 11,
+        "categoria": "ambiguo",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": false,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 12,
+        "categoria": "ambiguo",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": false,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 13,
+        "categoria": "ambiguo",
+        "acertos": {
+          "intent": false,
+          "parameter": true,
+          "value": true,
+          "unit": false,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 14,
+        "categoria": "ambiguo",
+        "acertos": {
+          "intent": false,
+          "parameter": true,
+          "value": false,
+          "unit": true,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 15,
+        "categoria": "incompleto",
+        "acertos": {
+          "intent": false,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 16,
+        "categoria": "incompleto",
+        "acertos": {
+          "intent": false,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 17,
+        "categoria": "incompleto",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": false,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 18,
+        "categoria": "fora_de_faixa",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 19,
+        "categoria": "fora_de_faixa",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": false,
+          "unit": true,
+          "status": false,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": true
+      },
+      {
+        "id": 20,
+        "categoria": "fora_de_faixa",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 21,
+        "categoria": "fora_de_faixa",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 22,
+        "categoria": "erro_stt",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": false,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 23,
+        "categoria": "erro_stt",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": false
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 24,
+        "categoria": "erro_stt",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": false,
+          "confidence": true
+        },
+        "erro_critico": false
+      },
+      {
+        "id": 25,
+        "categoria": "erro_stt",
+        "acertos": {
+          "intent": true,
+          "parameter": true,
+          "value": true,
+          "unit": true,
+          "status": true,
+          "requires_confirmation": true,
+          "confidence": false
+        },
+        "erro_critico": false
+      }
+    ]
+  }
+}
