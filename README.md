@@ -1,4 +1,4 @@
-# Voice Command Extraction — STT + Extração Estruturada de Comandos Médicos
+# Voice Command Extraction for Medical Systems
 
 O projeto investiga um pipeline para receber **comandos de voz curtos em português brasileiro**, transcrevê-los com **Whisper** e convertê-los em uma saída **JSON estruturada e validável**. O foco do seguinte projeto é prototipagem experimental, avaliação e documentação.
 
