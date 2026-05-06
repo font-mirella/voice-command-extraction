@@ -1,4 +1,5 @@
-# src/pipeline_b.py
+# pipeline_b.py
+
 """
 Variante B — LLM + regras de domínio (abordagem híbrida).
 """
@@ -8,7 +9,10 @@ import os
 import sys
 import time
 
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
+
 
 from extractor import extrair_comando
 from validator import aplicar_regras

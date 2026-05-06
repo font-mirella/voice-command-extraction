@@ -1,4 +1,5 @@
 # pipeline_a.py
+
 """
 Variante A — LLM puro.
 Lê transcrições do Whisper, extrai estrutura via LLM e salva resultados.
@@ -9,7 +10,8 @@ import os
 import sys
 import time
 
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from extractor import extrair_comando
 
